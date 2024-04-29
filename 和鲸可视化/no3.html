@@ -1,0 +1,1377 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>农业生产效率</title>
+<link href="css/style.css"  rel="stylesheet" type="text/css" media="all" />
+<script src="js/echarts.min.js" charset="utf-8"></script>
+
+
+<body>
+<div class="wpbox">
+<div class="bnt">
+  <div class="topbnt_left fl">
+    <ul>
+     <li class="active" ><a href="no1.html">农业绿色发展</a></li>
+     
+     <li ><a href="/no2.html">农村生活水平</a></li>
+    </ul>
+   </div>
+   <h1 class="tith1 fl">农业生产效率</h1>
+   <div class=" fr topbnt_right">
+     <ul >
+        <li ><a href="no3.html">农业生产效率</a></li>
+       <li ><a href="no4.html">农业科技创新</a></li>
+     </ul>
+    </ul>
+   </div>
+</div>
+<!-- bnt end -->
+<div class="left1">
+    <div class="aleftboxttop">
+      <!-- <h2 class="tith2">今日矛盾纠纷数据统计</h2> -->
+      <h2 class="tith2">耕地面积(千公顷)</h2>
+      <div class="lefttoday_tit" style=" height:8%"><p class="fl">地区:China</p><p class="fr">2024-03-30</p>
+    </div>
+    <div class="lefttoday_number">
+      <div class="widget-inline-box text-center fl">
+        <p>2021</p>
+        <h3 class="ceeb1fd">6606</h3>
+        <h4 class="text-muted pt6"><img src="img/iconup.png" height="16" /></h4>
+      </div>
+      <div class="widget-inline-box text-center fl">
+         <p>2018</p>
+        <h3 class="c24c9ff">6419.7</h3>
+        <h4 class="text-muted pt6"><img src="img/iconup.png" height="16" /></h4>
+      </div>
+      <div class="widget-inline-box text-center fl">
+         <p>2015</p>
+        <h3 class="cffff00">6336.7</h3>
+        <h4 class="text-muted pt6"><img src="img/iconup.png" height="16" /></h4>
+      </div>
+      <div class="widget-inline-box text-center fl">
+         <p>2012</p>
+        <h3 class="c11e2dd">6217.4</h3>
+        <h4 class="text-muted pt6"><img src="img/iconup.png" height="16" /></h4>
+      </div>
+    </div>
+    <!-- lefttoday_number end -->
+    </div>
+    <div class="aleftboxtmidd">
+      <!-- <h2 class="tith2">矛盾纠纷地区统计</h2> -->
+      <h2 class="tith2">2021年我国主要谷物单位面积产量</h2>
+          <div class="lefttoday_tit height ht">
+            <p class="fl">状态：已展示</p><p class="fr">时间:2021年度</p>
+          </div>
+      <div id="aleftboxtmidd" class="aleftboxtmiddcont"></div>
+  </div>
+  <div class="aleftboxtbott">
+    <h2 class="tith2">粮食作物单位面积产量</h2>
+        <div class="lefttoday_tit height"><p class="fl">状态：已展示</p><p class="fr">时间:2021年度</p></div>
+    <div id="aleftboxtbott" class="aleftboxtbott_cont" ></div>
+</div>
+</div>
+<!--  left1 end -->
+<div class="mrbox">
+      <div class="mrbox_topmidd" style="width: 69%;">
+          <div class="amiddboxttop">
+              <!-- <h2 class="tith2 pt1">实时监控统计</h2> -->
+              <h2 class="tith2 pt1">农业机械动力一览</h2>
+              
+                <div id="daping1111" class="amiddboxtbott1content">
+                </div>
+            </div>
+            <!--  amiddboxttop end-->
+                <div class="amidd_bott">
+                  <div class="amiddboxtbott1 fl" >
+                    <!-- <h2 class="tith2 pt1">矛盾纠纷环比分析</h2> -->
+                    <h2 class="tith2 pt1">2005-2021粮食产量及人均粮食产量变化表</h2>
+                    <div id="amiddboxtbott1" class="amiddboxtbott1content" ></div>
+                  </div>
+
+                <div class="amiddboxtbott2 fl">
+                  <!-- <h2 class="tith2 pt1">案件统计</h2> -->
+                  <h2 class="tith2 pt1">2021/2011农业产品制造对比 万吨</h2>
+                  <div id="amiddboxtbott2" class="amiddboxtbott2content"></div>
+                </div>
+            </div>
+            <!-- amidd_bott end -->
+          </div>
+        <!-- mrbox_top end -->
+        <div class="mrbox_top_right">
+          <div class="arightboxtop">
+            <!-- <h2 class="tith2">警力分析</h2> -->
+            <h2 class="tith2">2021年度农村财政投入 亿元</h2>
+            <div class="lefttoday_tit"><p class="fl">状态：已展示</p><p class="fr">时间:2024</p></div>
+            <div id="you1" class="amiddboxtbott1content"></div>
+            <div class="left2_table">
+            </div>
+
+          </div>
+            <div class="arightboxbott">
+              <!-- <h2 class="tith2 ">矛盾纠纷七日数据分析</h2> -->
+              <h2 class="tith2 ">2021年度人均消费品产量 公斤/人</h2>
+              <div class="lefttoday_tit"><p class="fl">状态：已展示</p><p class="fr">时间:2024</p></div>
+              <div id="arightboxbott" class="arightboxbottcont" ></div>
+            </div>
+        </div>
+        <!-- mrbox_top_right end -->
+      </div>
+
+    </div>
+</div>
+
+<!-- 
+  var option = {
+  title: [
+    {
+      text: "农业机械",
+      x: "center",
+      textStyle: {
+        fontSize: 20,
+      },
+    },
+    {
+      text: "农业用具占比",
+      x: "19.8%",
+      y: "45%",
+      textAlign: "center",
+      textBaseline: "middle",
+      textStyle: {
+        fontSize: 20,
+      },
+    },
+    {
+      text: "中大型/小型拖拉机",
+      x: "49.8%",
+      y: "45%",
+      textAlign: "center",
+      textBaseline: "middle",
+      textStyle: {
+        fontSize: 20,
+      },
+    },
+    {
+      text: "收割机/脱粒机",
+      x: "79.8%",
+      y: "45%",
+      textAlign: "center",
+      textBaseline: "middle",
+      textStyle: {
+        fontSize: 20,
+      },
+    },
+    {
+      text: "107764千千瓦",
+      x: "center",
+      y: "8%",
+      subtext: "2024-04-07",
+      textStyle: {
+        fontSize: 80,
+      },
+    },
+  ],
+  tooltip: {
+    trigger: "axis",
+    axisPointer: {
+      type: "shadow",
+    },
+  },
+  legend: [
+    {
+      data: ["2021", "2011"],
+      x: "25%",
+      y: "60%",
+    },
+    {
+      data: ["大中型拖拉机", "小型拖拉机", "配套农具", "谷物联合收割机", "机动脱粒机", "农用水泵"],
+      x: "left",
+      orient: "vertical",
+    },
+  ],
+  grid: [
+    {
+      left: "0%",
+      right: "55%",
+      top: "65%",
+      bottom: "5%",
+      containLabel: true,
+    },
+    {
+      gridindex: 1,
+      left: "48%",
+      right: "3%",
+      top: "65%",
+      bottom: "5%",
+      containLabel: true,
+    },
+  ],
+  xAxis: [
+    {
+      type: "value",
+      axisLabel: {
+        formatter: "{value} k台",
+      },
+      boundaryGap: [0, 0.01],
+    },
+    {
+      gridIndex: 1,
+      type: "category",
+      boundaryGap: false,
+      data: [
+       '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021'
+      ],
+    },
+  ],
+  yAxis: [
+    {
+      type: "category",
+      data: [
+       "大中型拖拉机", "小型拖拉机", "配套农具", "谷物联合收割机", "机动脱粒机", "农用水泵"
+      ],
+      axisLabel: {
+        interval: 0,
+      },
+    },
+    {
+      gridIndex: 1,
+      type: "value",
+      axisLabel: {
+        formatter: "{value} ",
+      },
+    },
+  ],
+  series: [
+    {
+      name: "2021",
+      type: "bar",
+      label: {
+        normal: {
+          show: true,
+          position: "right",
+        },
+      },
+      data: [
+        498.0682, 1674.9904, 479.6902, 223.8, 1057.2,2299.7,
+      ],
+    },
+    {
+      name: "2011",
+      type: "bar",
+      label: {
+        normal: {
+          show: true,
+          position: "right",
+        },
+      },
+      data: [
+        440.6471,1811.2663,698.9501,122.499429967425, 997.857736156351,
+        2003.70358306188,
+      ],
+    },
+    {
+      name: "农业用具占比",
+      type: "pie",
+      center: ["20%", "45%"],
+      radius: ["15%", "20%"],
+      label: {
+        normal: {
+          formatter: "{b} :{c}({d}%)",
+        },
+      },
+      data: [
+        {
+          value: 498.0682,
+          name: "中大型拖拉机（k台）",
+        },
+        {
+          value: 1674.9904,
+          name: "小型拖拉机（k台）",
+        },
+        {
+          value: 479.6902,
+          name: "配套农具（k台）",
+        },
+        {
+          value: 223.8,
+          name: "谷物联合收割机（k台）",
+        },
+        {
+          value: 1057.2,
+          name: "机动脱粒机（k台）",
+        },
+      ],
+    },
+    {
+      name: "中大型/小型拖拉机",
+      type: "pie",
+      center: ["50%", "45%"],
+      radius: ["15%", "20%"],
+      label: {
+        normal: {
+          formatter: "{b} :{c}k({d}%)",
+        },
+      },
+      data: [
+        {
+          value: 498.0682,
+          name: "中大型",
+        },
+        {
+          value: 1674.9904,
+          name: "小型",
+        },
+      ],
+    },
+    {
+      name: "收割/脱粒",
+      type: "pie",
+      center: ["80%", "45%"],
+      radius: ["15%", "20%"],
+      label: {
+        normal: {
+          formatter: "{b} :{c}k({d}%)",
+        },
+      },
+      data: [
+        {
+          value: 223.8,
+          name: "谷物联合收割机",
+        },
+        {
+          value: 1057.2,
+          name: "机动脱粒机",
+        },
+      ],
+    },
+    {
+      xAxisIndex: 1,
+      yAxisIndex: 1,
+      name: "分时统计",
+      type: "line",
+      lineStyle: {
+        normal: {
+          color: "#4ea397",
+        },
+      },
+      data: [
+  "68397.8486",
+  "72522.1234",
+  "76589.56346",
+  "82190.4132",
+  "87496.1013",
+  "92780.4757",
+  "97734.65852",
+  "102558.96",
+  "103906.7505",
+  "108056.58",
+  "111728.0676",
+  "97245.5853",
+  "98783.347",
+  "100371.744",
+  "102758.2611",
+  "105622.1484",
+  "107764.3206",
+],
+      markPoint: {
+        data: [
+          {
+            type: "max",
+            name: "最大值",
+            symbolSize: 80,
+          },
+          {
+            type: "min",
+            name: "最小值",
+            symbolSize: 50,
+          },
+        ],
+        itemStyle: {
+          normal: {
+            color: "#d0648a",
+          },
+        },
+      },
+      markLine: {
+        data: [
+          {
+            type: "average",
+            name: "平均值",
+          },
+        ],
+      },
+    },
+  ],
+};
+
+ -->
+<!-- 标题二 -->
+                <script type="text/javascript">
+                        var myChart = echarts.init(document.getElementById('aleftboxtmidd'));
+                        option = {
+                          color:['#76c4bf','#e5ffc7','#508097','#4d72d9'],
+                            backgroundColor: 'rgba(1,202,217,.2)',
+                            grid: {
+                											left:20,
+                											right:40,
+                											top:20,
+                											bottom:0,
+                                      containLabel: true
+                										},
+                                      calculable : true,
+                                      series : [
+
+                                          {
+                                              name:'面积模式',
+                                              type:'pie',
+                                              radius : [5, 60],
+                                              center : ['50%', '55%'],
+                                              roseType : 'area',
+                                              data:[
+                                                  {value:7113.4, name:'稻谷'},
+                                                  {value:5810.8, name:'小麦'},
+                                                  {value:6290.9, name:'玉米'},
+                                                  {value:3097.1, name:'其他谷物'}
+                                              ]
+                                          }
+                                      ]
+                                  };
+                        myChart.setOption(option);
+                    </script>
+                    <!-- 标题三 -->
+                    <script type="text/javascript">
+                            var myChart = echarts.init(document.getElementById('aleftboxtbott'));
+                            option = {
+                              color:['#7ecef4'],
+                                backgroundColor: 'rgba(1,202,217,.2)',
+                                grid: {
+                    											left:20,
+                    											right:20,
+                    											top:13,
+                    											bottom:6,
+                                          containLabel: true
+                    										},
+
+                                      xAxis: {
+                                          type: 'value',
+                                          axisLine:{
+                                           lineStyle:{
+                                             color:'rgba(255,255,255,.2)'
+                                           }
+                                         },
+                                         splitLine:{
+                                           lineStyle:{
+                                             color:'rgba(255,255,255,0)'
+                                           }
+                                         },
+                                         axisLabel:{
+                                             color:"rgba(255,255,255,0)"
+                                         },
+                                          boundaryGap: [0, 0.01]
+                                      },
+                                      yAxis: {
+                                          type: 'category',
+                                          axisLine:{
+                                           lineStyle:{
+                                             color:'rgba(255,255,255,.5)'
+                                           }
+                                         },
+                                         splitLine:{
+                                           lineStyle:{
+                                             color:'rgba(255,255,255,.1)'
+                                           }
+                                         },
+                                         axisLabel:{
+                                             color:"rgba(255,255,255,.5)"
+                                         },
+                                          data: ['2021','2016','2011','2016']
+                                      },
+                                      series: [
+                                          {
+                                              name: '粮食作物单位面积产量',
+                                              type: 'bar',
+                                              barWidth :30,
+                                              itemStyle: {
+                                                  normal: {
+                                                      color: new echarts.graphic.LinearGradient(
+                                                          1, 0, 0, 1,
+                                                          [
+                                                              {offset: 0, color: 'rgba(230,253,139,.7)'},
+                                                              {offset: 1, color: 'rgba(41,220,205,.7)'}
+                                                          ]
+                                                      )
+                                                  }
+                                              },
+                                              data: [5805, 5504.17919381108, 5128.94568403909,4753.71217426713]
+                                          }
+                                      ]
+                                  };
+                            myChart.setOption(option);
+                        </script>
+                        <!-- 下面标题四 -->
+                        <script type="text/javascript">
+                                var myChart = echarts.init(document.getElementById('amiddboxtbott1'));
+                                option = {
+                                  color:['#7ecef4'],
+                                  backgroundColor: 'rgba(1,202,217,.2)',
+  legend: {
+    top: 20,
+    itemGap: 15,
+    data: ["粮食产量", "人均粮食产量"],
+    textStyle: {
+      color: "#fff",
+    },
+  },
+  tooltip: {
+    trigger: "axis",
+    axisPointer: {
+      type: "shadow",
+    },
+    padding: 10,
+    textStyle: {
+      color: "#fff",
+    },
+  },
+  xAxis: {
+    nameTextStyle: {
+      color: "#fff",
+      fontSize: 14,
+    },
+    axisLabel: {
+      margin: 20,
+      color: "#fff",
+      fontSize: 14,
+    },
+    type: "category",
+    nameLocation: "center",
+    nameGap: 50,
+    axisLine: {
+      lineStyle: {
+        type: "dashed",
+        color: "#ECECEC",
+      },
+    },
+    // name: "年份",
+    data: ['2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021'],
+  },
+  yAxis: [
+    {
+      name: "产粮量/万吨",
+      nameTextStyle: {
+        color: "#fff",
+        fontSize: 14,
+      },
+      axisLabel: {
+        margin: 20,
+        color: "#fff",
+        fontSize: 14,
+      },
+      splitLine: {
+        show: false,
+        lineStyle: {
+          type: "dashed",
+          color: "#ECECEC",
+        },
+      },
+      axisLine: {
+        show: false,
+      },
+      type: "value",
+      minInterval: 1,
+      nameGap: 20,
+    },
+    {
+      name: "人均产粮/公斤",
+      nameTextStyle: {
+        color: "#fff",
+        fontSize: 14,
+      },
+      axisLabel: {
+        margin: 20,
+        color: "#fff",
+        fontSize: 14,
+      },
+      splitLine: {
+        show: false,
+        lineStyle: {
+          type: "dashed",
+          color: "#ECECEC",
+        },
+      },
+      axisLine: {
+        show: false,
+      },
+      type: "value",
+      minInterval: 1,
+      nameGap: 20,
+    },
+  ],
+  series: [
+    {
+      type: "line",
+      name: "粮食产量",
+      yAxisIndex: 0,
+      symbol: "emptyCircle",
+      smooth: 0.3,
+      symbolSize: 8,
+      itemStyle: {
+        borderWidth: 2,
+        color: "#01ACCE",
+      },
+      emphasis: {
+        itemStyle: {
+          color: "#01ACCE",
+          borderColor: "#fff",
+        },
+      },
+      data: [
+  {
+    name: "粮食产量",
+    value: 5.432634033,
+  },
+  {
+    name: "粮食产量",
+    value: 5.525081585,
+  },
+  {
+    name: "粮食产量",
+    value: 5.617529138,
+  },
+  {
+    name: "粮食产量",
+    value: 5.70997669,
+  },
+  {
+    name: "粮食产量",
+    value: 5.802424242,
+  },
+  {
+    name: "粮食产量",
+    value: 5.59,
+  },
+  {
+    name: "粮食产量",
+    value: 5.88,
+  },
+  {
+    name: "粮食产量",
+    value: 6.12,
+  },
+  {
+    name: "粮食产量",
+    value: 6.3,
+  },
+  {
+    name: "粮食产量",
+    value: 6.4,
+  },
+  {
+    name: "粮食产量",
+    value: 6.61,
+  },
+  {
+    name: "粮食产量",
+    value: 6.6,
+  },
+  {
+    name: "粮食产量",
+    value: 6.62,
+  },
+  {
+    name: "粮食产量",
+    value: 6.58,
+  },
+  {
+    name: "粮食产量",
+    value: 6.64,
+  },
+  {
+    name: "粮食产量",
+    value: 6.67,
+  },
+  {
+    name: "粮食产量",
+    value: 6.83,
+  },
+],
+    },
+    {
+      type: "bar",
+      name: "人均粮食产量",
+      yAxisIndex: 1,
+      showBackground: true,
+      barWidth: "20%",
+      itemStyle: {
+        color: "#EEB1FD",
+      },
+
+      data: [
+        {
+    name: "人均粮食产量",
+    value: 371.262161,
+  },
+  {
+    name: "人均粮食产量",
+    value: 379.889148,
+  },
+  {
+    name: "人均粮食产量",
+    value: 382.536067,
+  },
+  {
+    name: "人均粮食产量",
+    value: 403.382681,
+  },
+  {
+    name: "人均粮食产量",
+    value: 405.186516,
+  },
+  {
+    name: "人均粮食产量",
+    value: 417.96441,
+  },
+  {
+    name: "人均粮食产量",
+    value: 437.530096,
+  },
+  {
+    name: "人均粮食产量",
+    value: 452.097747,
+  },
+  {
+    name: "人均粮食产量",
+    value: 462.487928,
+  },
+  {
+    name: "人均粮食产量",
+    value: 466.263518,
+  },
+  {
+    name: "人均粮食产量",
+    value: 478.746206,
+  },
+  {
+    name: "人均粮食产量",
+    value: 475.889796,
+  },
+  {
+    name: "人均粮食产量",
+    value: 473.857752,
+  },
+  {
+    name: "人均粮食产量",
+    value: 468.998374,
+  },
+  {
+    name: "人均粮食产量",
+    value: 471.565121,
+  },
+  {
+    name: "人均粮食产量",
+    value: 474.446545,
+  },
+  {
+    name: "人均粮食产量",
+    value: 483.479776,
+  },
+      ],
+    },
+  ],
+};
+
+myChart.setOption(option);
+myChart.setOption(option);
+                                myChart.setOption(option);
+                            </script>
+<!-- 标题5 -->
+                        <script type="text/javascript">
+                                var myChart = echarts.init(document.getElementById('amiddboxtbott2'));
+                                option = {
+                                  backgroundColor: 'rgba(1,202,217,.2)',
+  title: {
+    text: "农业产品制造",
+    // subtext: "数据来自网络",
+    textStyle: {
+      color: "#fff",
+    },
+  },
+  tooltip: {
+    trigger: "axis",
+    axisPointer: {
+      type: "shadow",
+    },
+  },
+  legend: {
+    data: ["2011年", "2021年"],
+    textStyle: {
+      color: "#fff",
+    },
+  },
+  grid: {
+    left: "3%",
+    right: "4%",
+    bottom: "3%",
+    containLabel: true,
+  },
+  xAxis: {
+    type: "value",
+    boundaryGap: [0, 0.01],
+    axisLabel: {
+      color: "#fff",
+    },
+  },
+  yAxis: {
+    type: "category",
+    data: ["水产品总产量","海水产品产量","肉类产量","奶类产量"],
+    axisLabel: {
+      color: "#fff",
+    },
+  },
+  series: [
+    {
+      name: "2011年",
+      type: "bar",
+      data: [6690.2945,3387.2434,8989.985748,3778.059145],
+      itemStyle: {
+        color: "#0092ff",
+      },
+    },
+    {
+      name: "2021年",
+      type: "bar",
+      data: [5603.2,2908.0487,8022.981241,3262.771883],
+      itemStyle: {
+        color: "#58B088",
+      },
+    },
+  ],
+};
+
+                                myChart.setOption(option);
+                            </script>
+
+<!-- 标题7 -->
+                            <script type="text/javascript">
+                                    var myChart = echarts.init(document.getElementById('arightboxbott'));
+                                    option = {
+                                      backgroundColor: 'rgba(1,202,217,.2)',
+                                      color:['#7de494','#7fd7b1', '#5578cf', '#5ebbeb', '#d16ad8','#f8e19a',  '#00b7ee', '#81dabe','#5fc5ce'],
+  // title: {
+  //   text: "折线图堆叠",
+
+  // },
+  tooltip: {
+    trigger: "axis",
+  },
+  legend: {
+    data: ["人均油料产量", "人均猪牛羊肉产量", "人均水产品产量", "人均牛奶产量"],
+    textStyle:{
+      color:'#fff'
+    }
+  },
+  grid: {
+    left: "3%",
+    right: "4%",
+    bottom: "3%",
+    containLabel: true,
+  },
+  toolbox: {
+    feature: {
+      saveAsImage: {},
+    },
+  },
+  xAxis: {
+    type: "category",
+    boundaryGap: false,
+    data: ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021"],
+        axisLabel: {
+            textStyle: {
+                color: '#fff' //坐标轴刻度标签的颜色
+            }
+        }
+  },
+  yAxis: {
+    type: "value",
+     axisLabel: {
+            textStyle: {
+                color: '#fff' //坐标轴刻度标签的颜色
+            }
+        },
+        splitLine:{
+            show:false
+        }
+  },
+  series: [
+    {
+      name: "人均油料产量",
+      type: "line",
+      stack: "总量",
+      symbol:'circle',
+      symbolSize:10,
+      itemStyle : {
+        color:'rgba(125,228,148,1)',
+        borderColor : 'rgba(125,228,148,1)',
+      },
+      data: [4.38298, 5.745745, 5.764636, 5.459796, 4.684162, 4.313649, 4.846606, 4.879685, 4.607824, 4.591895, 4.281153, 3.849893, 4.048463, 4.350546, 4.183308, 4.188576, 4.0577, 25.582531],
+    },
+    {
+      name: "人均猪牛羊肉产量",
+      type: "line",
+      stack: "总量",
+      symbol:'circle',
+      symbolSize:10,
+      itemStyle : {
+        color:'rgba(127,215,177,1)',
+        borderColor : 'rgba(127,215,177,1)',
+      },
+      data: [23.602729, 20.139393, 21.147454, 22.924928, 23.582296, 23.598431, 23.884194, 24.262587, 24.559139, 24.579214, 24.571092, 24.499737, 24.890425, 24.475956, 24.812593, 25.415658, 25.582531, 47.369612],
+    },
+    {
+      name: "人均水产品产量",
+      type: "line",
+      stack: "总量",
+      symbol:'circle',
+      symbolSize:10,
+      itemStyle : {
+        color:'rgba(85,120,207,1)',
+        borderColor : 'rgba(85,120,207,1)',
+      },
+      data: [41.98, 42.77898, 40.365874, 42.976767, 44.75398, 46.166418, 45.51216, 47.547813, 48.575885, 49.868197, 48.452404, 46.703702, 46.835524, 46.412561, 38.367399, 37.37703, 46.075499, 46.075499],
+    },
+    {
+      name: "人均牛奶产量",
+      type: "line",
+      stack: "总量",
+      symbol:'circle',
+      symbolSize:10,
+      itemStyle : {
+        color:'rgba(0,183,238,1)',
+        borderColor : 'rgba(0,183,238,1)',
+      },
+      data: [33.9, 34.96, 36.02, 36.957537, 38.429328, 40.2, 41.531101, 40.48011, 42.012638, 43.603997, 44.900923, 45.819065, 46.034454, 45.948555, 45.957404, 46.377198, 47.369612, 47.369612],
+    },
+  ],
+};
+                                    myChart.setOption(option);
+                                </script>
+
+<!-- you1 -->
+<script type="text/javascript">
+  var myChart = echarts.init(document.getElementById('you1'));
+  option = {
+    color:['#7de494','#7fd7b1', '#5578cf', '#5ebbeb', '#d16ad8','#f8e19a',  '#00b7ee', '#81dabe','#5fc5ce'],
+      backgroundColor: 'rgba(1,202,217,.2)',
+   
+    tooltip: {
+      trigger: "item",
+      formatter: "{a} <br/>{b} : {c} ({d}%)",
+    },
+    // legend: {
+    //   x: "center",
+    //   y: "bottom",
+    //   data: ["农业财政投入", "林业财政投入", "水利财政投入", "扶贫财政投入", "农村综合改革财政投入"],
+    // },
+    toolbox: {
+      show: true,
+      feature: {
+        mark: { show: true },
+        dataView: { show: true, readOnly: false },
+        magicType: {
+          show: true,
+          type: ["funnel"],
+        },
+        restore: { show: true },
+        saveAsImage: { show: true },
+      },
+    },
+    
+    calculable: true,
+    series: [
+{
+name: "面积模式",
+type: "pie",
+radius: [20, 120], // 将半径缩小至原来的80%
+center: ["50%", "50%"],
+roseType: "area",
+data: [
+{ value: 7363.9, name: "农业" },
+{ value: 1771.1, name: "林业" },
+{ value: 4371.6, name: "水利" },
+{ value: 4310, name: "扶贫" },
+{ value: 1719.6, name: "农村综合改革" },
+],
+},
+],
+  };
+
+  myChart.setOption(option);
+</script>
+
+<script type="text/javascript">
+  var myChart = echarts.init(document.getElementById('daping1111'));
+  var option = {
+  title: [
+    {
+      text: "2021年农业机械动力",
+      x: "center",
+      textStyle: {
+        fontSize: 20,
+        color: "#fff",
+      },
+    },
+    {
+      text: "农业用具",
+      x: "19.8%",
+      y: "45%",
+      textAlign: "center",
+      textBaseline: "middle",
+      textStyle: {
+        fontSize: 14,
+        color: "#fff",
+      },
+    },
+    {
+      // text: "中大型/小型",
+      text: "拖拉机",
+      x: "49.8%",
+      y: "45%",
+      textAlign: "center",
+      textBaseline: "middle",
+      textStyle: {
+        fontSize: 14,
+        color: "#fff",
+      },
+    },
+    {
+      text: "收割/脱粒",
+      x: "79.8%",
+      y: "45%",
+      textAlign: "center",
+      textBaseline: "middle",
+      textStyle: {
+        fontSize: 14,
+        color: "#fff",
+      },
+    },
+    {
+      text: "107764千千瓦",
+      x: "center",
+      y: "8%",
+      subtext: "2024-04-07",
+      textStyle: {
+        fontSize: 80,
+        color: "#fff",
+      },
+    },
+  ],
+  tooltip: {
+    trigger: "axis",
+    axisPointer: {
+      type: "shadow",
+    },
+    
+  },
+  legend: [
+    {
+      data: ["2021", "2011"],
+      x: "25%",
+      y: "60%",
+      textStyle: {
+        color: "#fff",
+      },
+    },
+    {
+      data: ["大中型拖拉机", "小型拖拉机", "配套农具", "谷物联合收割机", "机动脱粒机", "农用水泵"],
+      x: "left",
+      orient: "vertical",
+      textStyle: {
+        color: "#fff",
+      },
+    },
+  ],
+  grid: [
+    {
+      left: "0%",
+      right: "55%",
+      top: "65%",
+      bottom: "5%",
+      containLabel: true,
+    },
+    {
+      gridindex: 1,
+      left: "48%",
+      right: "3%",
+      top: "65%",
+      bottom: "5%",
+      containLabel: true,
+    },
+  ],
+  xAxis: [
+    {
+      type: "value",
+      axisLabel: {
+        formatter: "{value} k台",
+      },
+      axisLabel: {
+        color: "#fff",
+      },
+      boundaryGap: [0, 0.01],
+    },
+    {
+      gridIndex: 1,
+      type: "category",
+      boundaryGap: false,
+      data: [
+       '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021'
+      ],
+      axisLabel: {
+        color: "#fff",
+      },
+    },
+  ],
+  yAxis: [
+    {
+      type: "category",
+      data: [
+       "大中型拖拉机", "小型拖拉机", "配套农具", "谷物联合收割机", "机动脱粒机", "农用水泵"
+      ],
+      axisLabel: {
+        interval: 0,
+        color: "#fff",
+      },
+    },
+    {
+      gridIndex: 1,
+      type: "value",
+      axisLabel: {
+        formatter: "{value} ",
+        color: "#fff",
+      },
+    },
+  ],
+  series: [
+    {
+      name: "2021",
+      type: "bar",
+      label: {
+        normal: {
+          show: true,
+          position: "right",
+        },
+      },
+      data: [
+        498.0682, 1674.9904, 479.6902, 223.8, 1057.2,2299.7,
+      ],
+      itemStyle: {
+        color: "#01ABCE",
+      },
+    },
+    {
+      name: "2011",
+      type: "bar",
+      label: {
+        normal: {
+          show: true,
+          position: "right",
+        },
+      },
+      data: [
+        440.6471,1811.2663,698.9501,122.499429967425, 997.857736156351,
+        2003.70358306188,
+      ],
+      itemStyle: {
+        color: "#7D4DD7",
+      },
+    },
+    {
+      name: "农业用具占比",
+      type: "pie",
+      center: ["20%", "45%"],
+      radius: ["15%", "20%"],
+      label: {
+        normal: {
+          formatter: "{b} :{c}({d}%)",
+        },
+      },
+      data: [
+        {
+          value: 498.0682,
+          name: "中大型拖拉机（k台）",
+        },
+        {
+          value: 1674.9904,
+          name: "小型拖拉机（k台）",
+        },
+        {
+          value: 479.6902,
+          name: "配套农具（k台）",
+        },
+        {
+          value: 223.8,
+          name: "谷物联合收割机（k台）",
+        },
+        {
+          value: 1057.2,
+          name: "机动脱粒机（k台）",
+        },
+      ],
+      itemStyle: {
+        color: function(params) {
+          // build a color map as your need.
+          var colorList = [
+            "#76C4BF",
+            "#4D72D9",
+            "#508097",
+            "#E5FFC7",
+            "#A761F7",
+          ];
+          return colorList[params.dataIndex];
+        },
+      },
+      emphasis: {
+        itemStyle: {
+          shadowBlur: 10,
+          shadowOffsetX: 0,
+          shadowColor: "rgba(0, 0, 0, 0.5)",
+        },
+      },
+    },
+    {
+      name: "中大型/小型拖拉机",
+      type: "pie",
+      center: ["50%", "45%"],
+      radius: ["15%", "20%"],
+      label: {
+        normal: {
+          formatter: "{b} :{c}k({d}%)",
+        },
+      },
+      data: [
+        {
+          value: 498.0682,
+          name: "中大型",
+        },
+        {
+          value: 1674.9904,
+          name: "小型",
+        },
+      ],
+      itemStyle: {
+        color: function(params) {
+          // build a color map as your need.
+          var colorList = [
+            "#EEB1FD",
+            "#01C3DF",
+          ];
+          return colorList[params.dataIndex];
+        },
+      },
+      emphasis: {
+        itemStyle: {
+          shadowBlur: 10,
+          shadowOffsetX: 0,
+          shadowColor: "rgba(0, 0, 0, 0.5)",
+        },
+      },
+    },
+    {
+      name: "收割/脱粒",
+      type: "pie",
+      center: ["80%", "45%"],
+      radius: ["15%", "20%"],
+      label: {
+        normal: {
+          formatter: "{b} :{c}k({d}%)",
+        },
+      },
+      data: [
+        {
+          value: 223.8,
+          name: "谷物联合收割机",
+        },
+        {
+          value: 1057.2,
+          name: "机动脱粒机",
+        },
+      ],
+      itemStyle: {
+        color: function(params) {
+          // build a color map as your need.
+          var colorList = [
+            "#58B088",
+            "#FFCD42",
+          ];
+          return colorList[params.dataIndex];
+        },
+      },
+      emphasis: {
+        itemStyle: {
+          shadowBlur: 10,
+          shadowOffsetX: 0,
+          shadowColor: "rgba(0, 0, 0, 0.5)",
+        },
+      },
+    },
+    {
+      xAxisIndex: 1,
+      yAxisIndex: 1,
+      name: "分时统计",
+      type: "line",
+      lineStyle: {
+        normal: {
+          color: "#37a2da",
+        },
+      },
+      data: [
+  "68397.8486",
+  "72522.1234",
+  "76589.56346",
+  "82190.4132",
+  "87496.1013",
+  "92780.4757",
+  "97734.65852",
+  "102558.96",
+  "103906.7505",
+  "108056.58",
+  "111728.0676",
+  "97245.5853",
+  "98783.347",
+  "100371.744",
+  "102758.2611",
+  "105622.1484",
+  "107764.3206",
+],
+      markPoint: {
+        data: [
+          {
+            type: "max",
+            name: "最大值",
+            symbolSize: 80,
+          },
+          {
+            type: "min",
+            name: "最小值",
+            symbolSize: 50,
+          },
+        ],
+        itemStyle: {
+          normal: {
+            color: "#d0648a",
+          },
+        },
+      },
+      markLine: {
+        data: [
+          {
+            type: "average",
+            name: "平均值",
+          },
+        ],
+      },
+    },
+  ],
+};
+  myChart.setOption(option);
+</script>
+
+
+</body>
+</html>
